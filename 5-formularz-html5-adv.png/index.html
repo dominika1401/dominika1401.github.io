@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>A simple form</h1>
+    </header>
+    <section>
+        <h2>Form fundaments</h2>
+    </section>
+    <form autocomplete="on">
+        <fieldset id="customerinfo">
+            <legend>Customer info:</legend>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name" autofocus required> <br>
+            <label for="phone">Telephone:</label>
+            <input type="tel" name="phone" id="phone" placeholder="Pattern 1-234-567-8910"
+                pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+            <label for="email">Email address:</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email address" required><br>
+        </fieldset>
+        <fieldset id="books">
+            <legend>Books</legend>
+            <input list="ksiazka" name="ksiazki" id="ksiazki">
+            <datalist id="ksiazka">
+                <option value="Książka1">
+                <option value="Książka2">
+                <option value="Książka3">
+                <option value="Książka4">
+                <option value="Książka5">
+            </datalist>
+            <label for="ilosc">Quantity (Maximum 5):</label>
+            <input type="number" name="ilosc" id="ilosc" min="1" max="5">
+        </fieldset>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
