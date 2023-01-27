@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #98fb98;
+}
+
+.shop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.shop .produkt {
+    flex-basis: 25%;
+    height: 200px;
+    position: relative;
+}
+
+.shop .produkt img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 5px 5px;
+}
+
+.jeden {
+    background-image: url(product-1.jpg);
+}
+
+.dwa {
+    background-image: url(product-2.jpg);
+}
+
+.trzy {
+    background-image: url(product-3.jpg);
+}
+
+.cztery {
+    background-image: url(product-4.jpg);
+}
+
+.shop .produkt .fa-facebook {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 153, 0, 0.5);
+    margin: 0;
+    text-align: center;
+    line-height: 200px;
+    font-weight: 300;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.shop .produkt .fa-facebook:hover {
+    opacity: 1;
+}
+
+@media (max-width: 992px) {
+    .shop .produkt {
+        flex-basis: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+    .shop .produkt {
+        flex-basis: 100%;
+    }
+}
