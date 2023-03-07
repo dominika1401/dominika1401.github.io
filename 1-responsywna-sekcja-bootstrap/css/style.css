@@ -1,0 +1,21 @@
+.social-links{
+        display: inline-block;
+        border-radius: 60px;
+        padding: 0.5em 0.6em;
+        color: orange;
+        background-color: aliceblue;
+      
+}
+.napis{
+    font-size: 2em;
+    color: grey; 
+
+}
+.napis1{
+    font-size: 2em;
+    color: grey; 
+    text-align: center;
+}
+hr{
+    width: 30%;
+}
