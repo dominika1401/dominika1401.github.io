@@ -1,0 +1,16 @@
+hr{
+    width: 30%;
+}
+#napis{
+    text-align: center;
+    color: gray;
+}
+.btn{
+    text-align: center;
+    color: red;
+    margin-left: 40%;
+    align-items: center;
+}
+.card-body{
+    text-align: center;
+}
