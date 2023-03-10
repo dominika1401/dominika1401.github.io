@@ -86,7 +86,7 @@
 			border-radius: 0px;
 			height: $baseline * 3;
 			line-height: $baseline * 1.5;
-			font-size: math.div($base-font-size, 2) ;
+			// font-size: math.div($base-font-size, 2) ;
 		}
 
 		@media(min-width: 768px) {
