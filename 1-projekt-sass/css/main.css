@@ -11748,7 +11748,7 @@ form fieldset input[name=comment], form fieldset input[name=message] {
   background: rgba(34, 34, 34, 0.8);
   -webkit-transition: all 1s;
   -moz-transition: all 1s;
-  transition: all 1s;
+  transition: all 1;
 }
 .t108-one-page #portfolio .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
   position: absolute;
